@@ -4,17 +4,54 @@
     </h1>
 </div>
 
-## ⚙️ Dependencies
+# ⚙️ Dependencies
 
 - @playwright/test: 1.56.1
 - @types/node: 24.10.0
 
+
+# 🛠️ Prerequisites 
+
+Before getting started, make sure you have **Node.js** installed along with one of the following package managers:
+
+- [pnpm](https://pnpm.io/)  
+- [npm](https://www.npmjs.com/)
+
+<br>
+
+# ✨ Getting Started
+
+## 📋 Clone the repository 
+
+```bash
+git clone https://github.com/vinceler/oop-ts-playwright-sample-template.git
+cd oop-ts-playwright-sample-template
+```
+
 ## 📦 Install dependencies 
 
-In terminal, at  the root project, run : 
+Using pnpm:
 
 ```bash 
 pnpm install
+```
+
+Or using npm:
+
+```bash 
+npm install
+```
+
+## 🚀 Run tests 
+
+```bash 
+pnpm exec playwright test
+```
+
+Or using npm:
+
+```bash 
+npx playwright test
 ```
 
 ## 🏗️ Architecture 
