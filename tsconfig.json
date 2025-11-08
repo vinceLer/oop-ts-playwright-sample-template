@@ -1,0 +1,21 @@
+{
+    "compilerOptions": {
+        "target": "es6",
+        "module": "es6",
+        "outDir": "./dist",
+        "rootDir": "./src",
+        "strict": true,
+        "baseUrl": ".",
+        "paths": {              
+            // `paths` in `tsconfig.json`** defines import aliases for TypeScript modules, allowing short, 
+            // consistent paths like `@core/base` instead of long relative paths.  
+            // It works similarly to **pnpm workspaces**, 
+            // which centralize package references in a monorepo for easier imports and dependency management.
+            "@core/*": ["core/*"],
+            "@pages/*": ["src/pages/*"],
+            "@locators/*": ["src/locators/*"],
+            "@common/*": ["common/*"]
+        }
+    },
+  "include": ["src/**/*"]
+}
