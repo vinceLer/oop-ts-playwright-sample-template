@@ -44,6 +44,8 @@ npm install
 
 ## 🚀 Run tests 
 
+Using pnpm:
+
 ```bash 
 pnpm exec playwright test
 ```
